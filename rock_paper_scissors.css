@@ -1,0 +1,68 @@
+body {
+    background-color: #e0d7c4
+}
+
+.header_and_footer {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 2px;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+
+#main_nav {
+    background-color: blue;
+}
+
+/*applies to all unordered list items in main_nav*/
+#main_nav ul li { 
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px;
+}
+
+/*for linked items in nav bar*/
+#main_nav a {
+    color: white;
+}
+
+/*applies to all list items in main-nav when it's hovered over*/
+#main_nav li:hover {
+    background-color: rgb(154, 0, 0);
+}
+
+.main_container {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.content_area {
+    width: 70%;
+    float: left;
+}
+
+.content_box {
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#instructions {
+    background-color: rgb(0, 221, 255);
+    float: right;
+    width: 28%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* when any part of instructions box on right is hovered*/
+#instructions:hover {
+    background-color: magenta;
+}
